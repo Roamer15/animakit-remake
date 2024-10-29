@@ -138,15 +138,17 @@ main {
 .company-logos {
   text-align: center;
   display: block;
-  margin: 0 10px;
+  margin: 0 2px 1rem;
   justify-content: center;
 
-  li {
-    padding-top: 0.2em;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
 
   i {
-    font-size: 10em;
+    font-size: 2em;
   }
 }
 
