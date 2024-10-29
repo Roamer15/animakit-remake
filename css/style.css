@@ -17,13 +17,14 @@ a {
 }
 
 header {
-  background-image: url(/assets/her-one.png);
+  background-image: linear-gradient( 115deg, rgba(21, 21, 22, 0.8), rgba(17, 17, 17, 0.7) ), url(/assets/her-one.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.8;
+  padding-bottom: 2em;
   i {
     color: #036bd3;
+    cursor: pointer;
   }
   button {
     border: 2px solid #f9f9f9;
@@ -95,6 +96,9 @@ main {
     width: 100%;
     padding-top: 0.8em;
   }
+  a {
+    color: #036bd3;
+  }
 }
 
 .company-logos {
@@ -116,6 +120,11 @@ main {
 
 .article-two {
   display: block;
+  padding: 1em 0;
+  background-color: #e3e3e3;
+  a {
+    color: #036bd3;
+  }
 }
 
 .part-one {
@@ -134,31 +143,48 @@ main {
 .part-two .box-four,
 .part-two .box-five,
 .part-two .box-six {
+  background-color: #f9f9f9;
   text-align: center;
-  margin-bottom: 0.7em;
+  margin: 0 10px 0.7em;
+  padding: 2em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 4px 8px #f3f2f2;
+  button {
+    background-color: transparent;
+  }
 }
 
 .inspiration {
   text-align: center;
-  background-image: url(/assets/clock.jpg);
+  background-image: linear-gradient( 115deg, rgba(26, 26, 27, 0.8), rgba(13, 13, 14, 0.7) ), url(/assets/clock.jpg);
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
-  padding: 1em 0;
+  padding: 3em 0;
   button {
     background-color: transparent;
   }
-  h2 {
+  h3 {
     color: #f9f9f9;
   }
   p {
+    padding-top: 0.2em;
     color: #ddd7d7;
+  }
+  a {
+    color: #036bd3;
   }
 }
 
 .review {
   margin: 0 10px;
   text-align: center;
+  ul {
+    list-style: none;
+    li {
+      padding-bottom: 0.2rem;
+    }
+  }
 }
 
 .numbers {
@@ -172,59 +198,102 @@ main {
   margin: 0 10px;
   text-align: center;
   margin-top: 1em;
+  border-bottom: 1px solid #8d8d8a;
 }
 
 .list-us {
   margin-top: 0.5rem;
 }
 
+.list-us .one,
+.list-us .two,
+.list-us .three {
+  padding: 0.3rem 0;
+}
+
 .list-us h2 {
   padding-bottom: 0.5em;
 }
 
-.image-two img {
-  width: 100%;
+.image-two {
+  padding: 1em 0;
+  img {
+    width: 100%;
+  }
 }
 
 .steps {
   margin: 0 10px;
+  padding: 1em 0;
   text-align: center;
+  button {
+    background-color: transparent;
+  }
+  a {
+    color: #036bd3;
+  }
 }
 
 .list-steps .consultation,
 .list-steps .package,
 .list-steps .productions,
 .list-steps .order {
-  margin-bottom: 0.7em;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 10px 0.7em;
+  padding: 2em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 4px 8px #f3f2f2;
+  a {
+    color: #036bd3;
+  }
 }
 
-.stand-image img {
-  width: 100%;
+.stand-image {
+  margin-bottom: 0.7em;
+  img {
+    width: 100%;
+  }
 }
 
 .article-three {
-  margin: 0 10px;
   text-align: center;
-  background-image: url(/assets/keyboard.jpg);
+  background-image: linear-gradient( 115deg, rgba(26, 26, 27, 0.8), rgba(13, 13, 14, 0.7) ), url(/assets/keyboard.jpg);
   background-size: cover;
   background-position: center;
   opacity: 0.8;
   margin-bottom: 1em;
-  padding-bottom: 1em;
+  padding: 4em 0;
+  position: relative;
   button {
     background-color: transparent;
   }
-  h1 {
+  h3 {
     color: #f9f9f9;
   }
   p {
     color: #ddd7d7;
+  }
+  a {
+    color: #036bd3;
   }
 }
 
 .overlap {
   text-align: center;
   margin: 0 10px;
+}
+
+.box-one-overlap {
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0 10px 0.7em;
+  padding: 2em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 4px 8px #f3f2f2;
+  button {
+    background-color: transparent;
+  }
 }
 
 .side-image {
@@ -234,6 +303,9 @@ main {
 .testimonials {
   margin: 0 10px;
   margin-top: 1em;
+  h2 {
+    padding: 0.3rem 0;
+  }
 }
 
 .article-four {
@@ -250,7 +322,7 @@ main {
 }
 
 .testimony-one, .testimony-two {
-  width: 45%;
+  width: 100%;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -260,6 +332,7 @@ main {
 .testimony-text {
   font-size: 16px;
   line-height: 1.5;
+  font-style: italic;
 }
 
 .testimony-image {
