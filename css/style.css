@@ -22,7 +22,7 @@ button {
 }
 
 header {
-  background-image: linear-gradient( 115deg, rgba(21, 21, 22, 80%), rgba(17, 17, 17, 70%) ), url("/assets/her-one.png");
+  background-image: linear-gradient(115deg, rgba(21, 21, 22, 80%), rgba(17, 17, 17, 70%) ), url("/assets/her-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,7 +160,7 @@ main {
 
 .inspiration {
   text-align: center;
-  background-image: linear-gradient( 115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/clock.jpg");
+  background-image: linear-gradient(115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/clock.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
@@ -253,7 +253,7 @@ main {
 
 .article-three {
   text-align: center;
-  background-image: linear-gradient( 115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/keyboard.jpg");
+  background-image: linear-gradient(115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/keyboard.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.8;
