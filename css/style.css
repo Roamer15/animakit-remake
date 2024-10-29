@@ -24,13 +24,13 @@ button {
   border: 1px solid #036bd3;
   color: #036bd3;
   font-size: 10px;
-  border-radius: 1rem;
+  border-radius: 0.8rem;
   cursor: pointer;
   background-color: transparent;
 }
 
 header {
-  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("/assets/her-one.png");
+  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("./assets/her-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -186,7 +186,7 @@ main {
 
 .inspiration {
   text-align: center;
-  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("/assets/clock.jpg");
+  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("./assets/clock.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
@@ -208,6 +208,7 @@ main {
 
   ul {
     list-style: none;
+    display: flex;
 
     li {
       padding-bottom: 0.2rem;
@@ -219,7 +220,7 @@ main {
   color: #2188ef;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .choose-us {
@@ -279,7 +280,7 @@ main {
 
 .article-three {
   text-align: center;
-  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("/assets/keyboard.jpg");
+  background-image: linear-gradient(115deg, #1a1a1a80, #0d0d0e70), url("./assets/keyboard.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.8;
