@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #f9f9f9;
 }
 
@@ -18,50 +18,47 @@ a {
 }
 
 button {
+  margin-top: 0.5rem;
+  height: 3rem;
+  width: 11rem;
+  border: 1px solid #036bd3;
+  color: #036bd3;
+  font-size: 10px;
+  border-radius: 1rem;
+  cursor: pointer;
   background-color: transparent;
 }
 
 header {
-  background-image: linear-gradient(115deg, rgba(21, 21, 22, 80%), rgba(17, 17, 17, 70%) ), url("/assets/her-one.png");
+  background-image: linear-gradient(115deg,#1a1a1a80,#0d0d0e70), url("/assets/her-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding-bottom: 2em;
-  
+
   i {
     color: #036bd3;
     cursor: pointer;
   }
-  
+
   button {
     border: 2px solid #f9f9f9;
     background-color: transparent;
   }
-  
+
   a {
     color: #f9f9f9;
   }
 }
 
 h2 {
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   padding-bottom: 0.4rem;
 }
 
 p {
   color: #4d4d4c;
   font-size: 13px;
-}
-
-button {
-  margin-top: 0.5rem;
-  height: 3rem;
-  width: 11rem;
-  border:1px solid #036bd3;
-  color: #036bd3;
-  font-size: 10px;
-  border-radius: 1rem;
-  cursor: pointer;
 }
 
 .top {
@@ -76,11 +73,11 @@ button {
 .intro-text {
   margin: 2rem 0;
   padding-bottom: 2rem;
-  
+
   p {
     color: #f9f9f9;
   }
-  
+
   h1 {
     color: #f9f9f9;
   }
@@ -92,10 +89,35 @@ main {
 }
 
 .question {
-  font-family: Roboto;
+  font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: bold;
   color: #2188ef;
-  padding-bottom: o.5em;
+  padding-bottom: 0.5em;
+}
+
+footer {
+  background-color: #222;
+  color: #f9f9f9;
+  font-size: 12px;
+
+  img {
+    width: 100%;
+    height: 300px;
+  }
+
+  h2 {
+    padding-top: 1em;
+  }
+
+  p {
+    color: #f9f9f9;
+    font-size: 12px;
+  }
+
+  button {
+    background-color: transparent;
+    width: 100%;
+  }
 }
 
 .article-one {
@@ -118,7 +140,7 @@ main {
   li {
     padding-top: 0.2em;
   }
-  
+
   i {
     font-size: 10em;
   }
@@ -160,7 +182,7 @@ main {
 
 .inspiration {
   text-align: center;
-  background-image: linear-gradient(115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/clock.jpg");
+  background-image: linear-gradient(115deg,#1a1a1a80,#0d0d0e70), url("/assets/clock.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 1em;
@@ -169,7 +191,7 @@ main {
   h3 {
     color: #f9f9f9;
   }
-  
+
   p {
     padding-top: 0.2em;
     color: #ddd7d7;
@@ -182,7 +204,7 @@ main {
 
   ul {
     list-style: none;
-    
+  
     li {
       padding-bottom: 0.2rem;
     }
@@ -219,7 +241,7 @@ main {
 
 .image-two {
   padding: 1em 0;
-  
+
   img {
     width: 100%;
   }
@@ -235,7 +257,7 @@ main {
 .list-steps .package,
 .list-steps .productions,
 .list-steps .order {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
   margin: 0 10px 0.7em;
   padding: 2em 0;
@@ -245,7 +267,7 @@ main {
 
 .stand-image {
   margin-bottom: 0.7em;
-  
+ 
   img {
     width: 100%;
   }
@@ -253,14 +275,14 @@ main {
 
 .article-three {
   text-align: center;
-  background-image: linear-gradient(115deg, rgba(26, 26, 27, 80%), rgba(13, 13, 14, 70%) ), url("/assets/keyboard.jpg");
+  background-image: linear-gradient(115deg,#1a1a1a80,#0d0d0e70), url("/assets/keyboard.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.8;
   margin-bottom: 1em;
   padding: 4em 0;
   position: relative;
-  
+
   h3 {
     color: #f9f9f9;
   }
@@ -276,7 +298,7 @@ main {
 }
 
 .box-one-overlap {
-  background-color: #ffffff;
+  background-color: #fff;
   text-align: center;
   margin: 0 10px 0.7em;
   padding: 2em 0;
@@ -314,7 +336,7 @@ main {
 .testimony-two {
   width: 100%;
   padding: 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #ddd;
   border-radius: 5px;
   margin-bottom: 20px;
 }
@@ -333,31 +355,6 @@ main {
   width: 100px;
   border-radius: 50%;
   margin-bottom: 10px;
-}
-
-footer {
-  background-color: #222222;
-  color: #f9f9f9;
-  font-size: 12px;
-
-  img {
-    width: 100%;
-    height: 300px
-  }
-
-  h2 {
-    padding-top: 1em;
-  }
-
-  p {
-    color: #f9f9f9;
-    font-size: 12px;
-  }
-
-  button {
-    background-color: transparent;
-    width: 100%;
-  }
 }
 
 .footer-info {
