@@ -34,7 +34,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 2em;
+  padding: 0 0.2em 2rem;
 
   i {
     color: #036bd3;
@@ -100,7 +100,7 @@ footer {
 }
 
 .intro-text {
-  margin: 2rem 0;
+  margin: 2rem 0.4rem;
   padding-bottom: 2rem;
 
   p {
