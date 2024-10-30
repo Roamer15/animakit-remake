@@ -489,10 +489,6 @@ main {
     }
   }
 
-  .article-two {
-    
-  }
-
   .part-one {
     text-align: left;
     display: grid;
@@ -551,5 +547,89 @@ main {
   .image-two img {
     width: 100%;
     height: 80%;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding: 4em 0;
+  }
+
+  .list-steps {
+    display: block;
+  }
+
+  .list-steps-box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 1em;
+    margin-left: 0.73em;
+    gap: 1em;
+  }
+
+  .stand-image img {
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  .list-steps .consultation,
+  .list-steps .package,
+  .list-steps .productions,
+  .list-steps .order {
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    button {
+      margin-top: 1em;
+    }
+  }
+
+  .article-three {
+    padding: 6em 20%;
+    margin-bottom: 0;
+
+    h3 {
+      padding-bottom: 0.7rem;
+    }
+
+    p {
+      padding-bottom: 0.7rem;
+    }
+  }
+
+  .overlap {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    position: absolute;
+    top: 201%;
+  }
+
+
+  .box-one-overlap {
+  padding: 3em 0.5em;
+  }
+
+  .testimonials {
+    padding-top: 30%;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  }
+
+  .side-image{
+    display: contents;
+    position: absolute;
+    z-index: 999;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .testimony {
+    background-color: #f3eded;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3rem 3rem;
   }
 }
