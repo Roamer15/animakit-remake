@@ -38,7 +38,7 @@ button {
 }
 
 header {
-  background-image: linear-gradient(115deg, #0004ff80, #00000070), url("../assets/her-one.png");
+  background-image: linear-gradient(115deg, #00000080, #00000070), url("../assets/her-one.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
