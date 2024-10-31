@@ -449,6 +449,19 @@ main {
     display: none;
   }
 
+  footer {
+    h2 {
+      font-weight: bold;
+      font-size: 3rem;
+      padding-left: 2rem;
+    }
+
+    button {
+      width: 20%;
+      margin-left: 2rem;
+    }
+  }
+
   .intro-text {
     width: 40%;
     padding: 5em 0;
@@ -548,19 +561,6 @@ main {
 
     button {
       margin-top: 1.5rem;
-    }
-  }
-
-  footer {
-    h2 {
-      font-weight: bold;
-      font-size: 3rem;
-      padding-left: 2rem;
-    }
-
-    button {
-      width: 20%;
-      margin-left: 2rem;
     }
   }
 
