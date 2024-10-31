@@ -59,6 +59,7 @@ header {
   a {
     color: #f9f9f9;
   }
+
 }
 
 a:hover {
@@ -124,6 +125,7 @@ footer {
 
   h1 {
     color: #f9f9f9;
+    line-height: 10vh;
   }
 }
 
@@ -478,7 +480,7 @@ main {
     }
 
     h1 {
-      line-height: 2vh;
+      line-height: 3vh;
     }
   }
 
@@ -571,6 +573,11 @@ main {
 
     h2 {
       padding-top: 1rem;
+      line-height: 3vh;
+    }
+
+    h1 {
+      line-height: 3vh;
     }
 
     p {
