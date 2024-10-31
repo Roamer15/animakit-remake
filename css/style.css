@@ -551,6 +551,19 @@ main {
     }
   }
 
+  footer {
+    h2 {
+      font-weight: bold;
+      font-size: 3rem;
+      padding-left: 2rem;
+    }
+
+    button {
+      width: 20%;
+      margin-left: 2rem;
+    }
+  }
+
   .choose-us {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -633,6 +646,7 @@ main {
     z-index: 1;
     line-height: 1.8vh;
     font-weight: bold;
+
     h3 {
       padding-bottom: 0.7rem;
     }
@@ -661,10 +675,11 @@ main {
     background-position: center;
   }
 
-  .side-image{
+  .side-image {
     display: contents;
     position: absolute;
     z-index: 999;
+
     img {
       width: 1px;
       height: 1px;
@@ -672,10 +687,10 @@ main {
   }
 
   .testimony {
-    background-color: #ffffff;
+    background-color: #fff;
     display: grid;
     grid-template-columns: 50% 50%;
-    padding: 3rem 3rem;
+    padding: 3rem;
     border: none;
     border-radius: 10px;
   }
@@ -702,19 +717,6 @@ main {
 
   .testimony-text {
     padding: 1em;
-  }
-
-  footer {
-    h2 {
-      font-weight: bold;
-      font-size: 3rem;
-      padding-left: 2rem;
-    }
-
-    button {
-      width: 20%;
-      margin-left: 2rem;
-    }
   }
 
   .footer-info {
@@ -776,7 +778,7 @@ main {
 
   .list-here {
     margin-top: 0;
-    
+
     ul {
       display: flex;
       justify-content: space-between;
